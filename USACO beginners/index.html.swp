@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <section class="u-clearfix u-grey-5 u-section-1" id="sec-d28e">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <div class="u-container-style u-custom-color-1 u-expanded-width u-group u-shape-rectangle u-group-1">
+                <div class="u-container-layout u-container-layout-1">
+                    <h1 class="u-text u-text-default u-title u-text-1">USACO BootLoader</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header>
+        <h1></h1> <!-- This is the header --> 
+    </header>
+    <section>
+        <h2>Welcome! This is a place for beginners who want to get into USACO.</h2>
+        <p>As a beginner starting out, USACO can be very challenging for someone who don't know how to code.</p>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
