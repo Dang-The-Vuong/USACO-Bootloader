@@ -2,6 +2,7 @@
   height: 100px;
   width: max;
   top: 50px;
+  border-radius: 15px;
   background-color: #3c8bd9;
 }
 .usaco-title {
@@ -25,4 +26,31 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.bottom-text {
+  position: absolute;
+  bottom: 8px;
+  font-size: 20px;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+.container-bottom {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: dotted;
+}
+a:visited {
+  color: coral;
+  background-color: transparent;
+  text-decoration: underline;
 }
