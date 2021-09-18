@@ -1,4 +1,11 @@
-.rectangle {
+.rectangleTOP {
+  height: 200px;
+  width: max;
+  top: 50px;
+  border-radius: 15px;
+  background-color: #3c8bd9;
+}
+.rectangleBOTTOM {
   height: 100px;
   width: max;
   top: 50px;
@@ -9,7 +16,7 @@
   text-align: center;
   color: white;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Courier New", monospace;
