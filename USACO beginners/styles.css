@@ -1,3 +1,7 @@
+/*
+This is only for the main page or index.html and should not be link reffed to other html pages
+*/
+
 .rectangleTOP {
   height: 100px;
   width: max;
