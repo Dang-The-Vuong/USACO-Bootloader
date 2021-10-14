@@ -39,18 +39,6 @@ This is only for the main page or index.html and should not be link reffed to ot
   position: absolute;
   border: 2px solid white;
 }
- 
-.usaco-title {
-  text-align: center;
-  color: white;
-  position: absolute;
-  top: 28%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Courier New", monospace;
-  font-size: 45px;
-  font-weight: bolder;
-}
 .container {
   position: relative;
   text-align: center;

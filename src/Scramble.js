@@ -55,7 +55,8 @@ class Scramble {
 }
 
 const phrases = [
-  "USACO Bootloader"
+  "USACO Bootloader",
+  "USACO"
 ];
 
 const el = document.querySelector(".text");
@@ -64,7 +65,7 @@ const fx = new Scramble(el);
 let counter = 0;
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 900);
+    setTimeout(next, 4000);
   });
   counter = (counter + 1) % phrases.length;
 };
