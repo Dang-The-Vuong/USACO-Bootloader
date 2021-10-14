@@ -44,12 +44,12 @@ This is only for the main page or index.html and should not be link reffed to ot
   text-align: center;
   color: white;
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Courier New", monospace;
   font-size: 45px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .container {
   position: relative;
@@ -69,7 +69,7 @@ This is only for the main page or index.html and should not be link reffed to ot
   font-family: "Courier New", monospace;
   text-align: center;
   left: 50%;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
   color: white;
   font-weight: bold;
