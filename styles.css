@@ -1,0 +1,146 @@
+/*
+This is only for the main page or index.html and should not be link reffed to other html pages
+*/
+body {
+  color: #3c8bd9;
+}
+
+.Title {
+  color: rgb(255, 255, 255);
+  background-color: #3c8bd9;
+}
+
+.Notice {
+  color: red;
+}
+
+ul a:link{
+  color: black;
+}
+.rectangleTOP {
+  height: 100px;
+  width: max;
+  top: 50px;
+  border-radius: 15px;
+  background-color: #3c8bd9;
+}
+.rectangleBOTTOM {
+  height: 100px;
+  width: max;
+  top: 50px;
+  border-radius: 15px;
+  background-color: #3c8bd9;
+}
+.main-page-array-button-home {
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -40%);
+  font-family: "Courier New", monospace;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.page2-page-array-button-home {
+  left:40%;
+  top: 60%;
+  transform: translate(-50%, -40%);
+  font-family: "Courier New", monospace;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  border: 2px solid white;
+}
+ 
+.usaco-title {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", monospace;
+  font-size: 45px;
+  font-weight: bold;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom-text {
+  position: absolute;
+  bottom: 8px;
+  font-size: 20px;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+.container-bottom {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: dotted;
+}
+
+a:visited {
+  color:coral;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.codecademy {
+  width: 100px;
+  height: auto;
+}
+
+.button {
+  transition-duration: 0.5s;
+  cursor: pointer;
+  border: 2px solid darkorange;
+  color: black;
+  padding: 4px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.button-home {
+  background-color: #eda407;
+  color:black;
+  border: 2px solid #eda407;
+  border-radius: 10px;
+}
+.button-home:hover {
+  background-color: #b87f04;
+  border: 2px solid #b87f04;
+  color: black;
+}
+.stackontop {
+  z-index: 9;
+  margin: 1px;
+}
